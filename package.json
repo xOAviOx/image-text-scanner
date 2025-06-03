@@ -1,0 +1,19 @@
+{
+  "name": "image-text-reader",
+  "version": "1.0.0",
+  "description": "A web application that accepts an image upload and reads the text from the image using Tesseract.js.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'No build step required. Static files are ready in public/'"
+  },
+  "dependencies": {
+    "tesseract.js": "^2.1.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "."
+}
